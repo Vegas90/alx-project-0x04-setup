@@ -11,6 +11,8 @@
   "description": "Objective: In most applications, you will have multiple pages that share similar Layout (i.e. Header and Footer). This can be achieved in multiple ways. You have already seen how you can do this by reusing your Header and Footer Components on Multiple pages. But there is a better way to do this and that is through the DRY framework. Set up a base application using create-next-app@latest with the name alx-project-0x04 in a Github repository alx-project-0x04-setup .",
   "main": "index.js",
   "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "@types/react-redux": "^7.1.34",
     "browserslist": "^4.25.0",
     "caniuse-lite": "^1.0.30001721",
     "electron-to-chromium": "^1.5.165",
@@ -23,6 +25,8 @@
     "postcss-value-parser": "^4.2.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "redux": "^5.0.1",
     "source-map-js": "^1.2.1",
     "update-browserslist-db": "^1.1.3"
   },
